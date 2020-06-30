@@ -1,0 +1,57 @@
+.arc-card{
+    border: 0.3em solid #2B2B2B;
+    background: #81BE39;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.object-card{
+    border: 0.3em solid #2B2B2B;
+    background: #EF6271;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.context-card{
+    background: #02B4F1;
+    height: 200px;
+    border: 0.3em solid #2B2B2B;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+.context-card:hover{
+    transform: rotate(180deg);
+}
+.mood-card{
+    border: 0.3em solid #2B2B2B;
+    background: #B480B6;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.title {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.context-card-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.context-card-bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    transform: rotate(180deg);
+}

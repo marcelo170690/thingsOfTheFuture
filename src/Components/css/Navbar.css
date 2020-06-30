@@ -1,0 +1,12 @@
+.father{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(64,186,181,1) 0%, rgba(124,53,133,1) 22%, rgba(9,1,91,1) 89%);
+}
+.son{
+    width: 25%;
+}
+.son:hover{
+    background: rgba(124,53,133,1);
+    border: 1px solid white;
+}
