@@ -9,7 +9,12 @@ class ArcCard extends React.Component{
       <div className="mb-2">
         <div className="arc-card">
           <img src="" alt=""/>
-          <div className="title text-center">Name</div>
+          <div className="title text-center">
+            {this.props.arc.scenario}
+            <div className="sub-title text-center">
+              {this.props.arc.time}
+            </div>
+          </div>
         </div>
       </div>
     );

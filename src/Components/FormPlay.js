@@ -16,14 +16,13 @@ class GroupCards extends React.Component{
                     <img src="" alt=""/>
                 </div>
                 <div className="group-buttons clearfix mb-2">
-                    <button className="btn btn-warning float-left m-1">
+                    <button className="btn btn-warning float-left m-1" onClick={this.props.refreshCards}>
                         Refresh
                     </button>
-
                     <button className="btn btn-primary float-right m-1" data-toggle="modal" data-target="#sahreTwitter">
                         Share
                     </button>
-                    <button className="btn btn-secondary float-right m-1">
+                    <button className="btn btn-success float-right m-1">
                         Download
                     </button>
                 </div>

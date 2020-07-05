@@ -8,7 +8,9 @@ class MoodCard extends React.Component{
         return (
             <div className="mb-2">
                 <div className="mood-card">
-                    <div className="title text-center">MESA DE MADERA CON MUCHAS</div>
+                    <div className="title text-center">
+                      {this.props.mood.name}
+                    </div>
                 </div>
             </div>
         );
